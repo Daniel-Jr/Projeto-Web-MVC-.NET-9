@@ -1,4 +1,4 @@
 git config --global user.name Daniel Debrande Junior
 git config --global user.email daniel.debrande.jr@gmail.com
 
-dotnet new mvc -o GranStore 
+dotnet new mvc -o GranStore
