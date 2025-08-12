@@ -1,12 +1,12 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace GranStore.Models
-{
-    public class Categoria
-    {
-        
-    }
+using System.ComponentModel.DataAnnotations;
+
+namespace GranStore.Models;
+
+public class Categoria
+{   
+    [Key]
+    public int Id { get; set; }
+
+    public string Nome { get; set; }
 }
